@@ -1,6 +1,6 @@
 {
   "name": "benites-brain-games",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "the first javascript hexlet project",
   "keywords": [
     "hexlet",
@@ -31,7 +31,6 @@
     "@babel/preset-env": "^7.3.4"
   },
   "dependencies": {
-    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
     "readline-sync": "^1.4.9"
   }
 }
