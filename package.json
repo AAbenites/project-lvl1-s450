@@ -1,6 +1,6 @@
 {
   "name": "benites-brain-games",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "the first javascript hexlet project",
   "keywords": [
     "hexlet",
@@ -28,7 +28,11 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.3.4"
+    "@babel/preset-env": "^7.3.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.9"
