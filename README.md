@@ -3,7 +3,7 @@ The first javascript hexlet project
 ##
 
 # brain-games
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ae7d008f26407e8c4abd/maintainability)](https://codeclimate.com/github/AAbenites/project-lvl1-s450/maintainability)
 [![Build Status](https://travis-ci.com/AAbenites/project-lvl1-s450.svg?branch=master)](https://travis-ci.com/AAbenites/project-lvl1-s450)
 
 ## Setup
