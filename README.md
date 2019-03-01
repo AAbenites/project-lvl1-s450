@@ -22,3 +22,8 @@ $ <game-name>
 Define whether a number even or not. Answer 3 times correctly to win.
 
 [![asciicast](https://asciinema.org/a/8cndSQAfscJUrP2u7AMuwwpLv.svg)](https://asciinema.org/a/8cndSQAfscJUrP2u7AMuwwpLv)
+
+## brain-calc
+Calculate result of the expression. Answer 3 times correctly to win.
+
+[![asciicast](https://asciinema.org/a/RO47JDkThIltgdout1BeK1jkk.svg)](https://asciinema.org/a/RO47JDkThIltgdout1BeK1jkk)
