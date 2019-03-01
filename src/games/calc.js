@@ -2,6 +2,8 @@ import { random } from 'lodash';
 import { cons, car, cdr } from 'hexlet-pairs';
 import loop from '..';
 
+const gameDescription = 'What is the result of the expression?';
+
 const getSignAndCalculate = (a, b) => {
   switch (random(0, 2)) {
     case 0:
@@ -18,8 +20,8 @@ const askQuestion = () => {
   const secondNum = random(1, 50);
   const gameData = getSignAndCalculate(firstNum, secondNum);
   const question = `${firstNum} ${car(gameData)} ${secondNum}`;
-  const correctAnswer = String(cdr(gameData));
+  const correctAnswer = cdr(gameData);
   return cons(question, correctAnswer);
 };
 
-export default () => loop('What is the result of the expression?\n', askQuestion);
+export default () => loop(gameDescription, askQuestion);

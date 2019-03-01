@@ -6,7 +6,7 @@ export const hello = () => {
 };
 
 export const askName = () => {
-  const username = readlineSync.question('What is your name? ');
+  const username = readlineSync.question('May I have your name? ');
   console.log(`Hi ${username}`);
   return username;
 };
@@ -22,9 +22,9 @@ export default (description, askQuestion) => {
       console.log(`Congratulations, ${user}!`);
       return;
     }
-    const game = askQuestion();
-    const question = car(game);
-    const correctAnswer = cdr(game);
+    const gameData = askQuestion();
+    const question = car(gameData);
+    const correctAnswer = String(cdr(gameData));
     console.log(`\nQuestion: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     const isCorrect = userAnswer === correctAnswer;
