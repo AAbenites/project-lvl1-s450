@@ -31,4 +31,4 @@ Calculate result of the expression. Answer 3 times correctly to win.
 ## brain-gcd
 Define the greatest common divisor for two numbers. Answer 3 times correctly to win.
 
-
+[![asciicast](https://asciinema.org/a/s13iNar6zHm1Uxtt31iz0OVG8.svg)](https://asciinema.org/a/s13iNar6zHm1Uxtt31iz0OVG8)
