@@ -40,3 +40,5 @@ Define the number in arithmetic progression. Answer 3 times correctly to win.
 
 ## brain-prime
 Define if number is prime. Answer 3 times correctly to win.
+
+[![asciicast](https://asciinema.org/a/gEhLiSbnGbd5PfbH9nyd2HXGr.svg)](https://asciinema.org/a/gEhLiSbnGbd5PfbH9nyd2HXGr)
