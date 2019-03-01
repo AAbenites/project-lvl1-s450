@@ -37,3 +37,6 @@ Define the greatest common divisor for two numbers. Answer 3 times correctly to 
 Define the number in arithmetic progression. Answer 3 times correctly to win.
 
 [![asciicast](https://asciinema.org/a/hhYcoJHxIxLjahfJG2iI8sfIj.svg)](https://asciinema.org/a/hhYcoJHxIxLjahfJG2iI8sfIj)
+
+## brain-prime
+Define if number is prime. Answer 3 times correctly to win.
