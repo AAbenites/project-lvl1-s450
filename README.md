@@ -27,3 +27,8 @@ Define whether a number even or not. Answer 3 times correctly to win.
 Calculate result of the expression. Answer 3 times correctly to win.
 
 [![asciicast](https://asciinema.org/a/RO47JDkThIltgdout1BeK1jkk.svg)](https://asciinema.org/a/RO47JDkThIltgdout1BeK1jkk)
+
+## brain-gcd
+Define the greatest common divisor of two namubers. Answer 3 times correctly to win.
+
+
