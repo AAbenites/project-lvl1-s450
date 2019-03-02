@@ -2,7 +2,7 @@ import { random } from 'lodash';
 import { cons } from 'hexlet-pairs';
 import loop from '..';
 
-const gameDescription = 'Answer "yes" if number even otherwise answer "no".\n';
+const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
 
 const isEven = num => num % 2 === 0;
 

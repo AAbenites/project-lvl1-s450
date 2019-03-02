@@ -2,7 +2,7 @@ import { random } from 'lodash';
 import { car, cdr, cons } from 'hexlet-pairs';
 import loop from '..';
 
-const gameDescription = 'What number is missing in the progression?\n';
+const gameDescription = 'What number is missing in the progression?';
 
 const maxLength = 10;
 const minStep = 1;
@@ -16,7 +16,7 @@ const makeProgression = (firstNum, step, numToReplace) => {
   for (let i = 0; i < maxLength; i += 1) {
     progression += (i === numToReplace) ? ' ..' : ` ${firstNum + (i * step)}`;
   }
-  return cons(progression, targetValue);
+  return cons(progression.trim(), targetValue);
 };
 
 const askQuestion = () => {
@@ -25,7 +25,7 @@ const askQuestion = () => {
   const numToReplace = random(0, maxLength - 1);
   const gameData = makeProgression(firstNum, step, numToReplace);
   const question = car(gameData);
-  const correctAnswer = cdr(gameData);
+  const correctAnswer = String(cdr(gameData));
   return cons(question, correctAnswer);
 };
 

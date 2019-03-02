@@ -2,7 +2,7 @@ import { random } from 'lodash';
 import { cons } from 'hexlet-pairs';
 import loop from '..';
 
-const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".\n';
+const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   if (num < 2) {
